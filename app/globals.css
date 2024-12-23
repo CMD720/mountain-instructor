@@ -70,6 +70,9 @@ body {
     /*filter: linear-gradient(45deg, #EECFBA, #C5DDE8);*/
     /*fill: linear-gradient(45deg, #EECFBA, #C5DDE8);*/
 }
+.equipment_logo:hover{
+    transform: scale(1.1);
+}
 .list{
     height: auto;
     width: 95%;
@@ -78,12 +81,20 @@ body {
 }
 .active_ski{
     /*position: absolute;*/
-    transform: translateY(-10vh);
+    transform: translateY(-10vh) scale(1.5);
+    /*fill: red;*/
+    /*transform: scale(2);*/
+    /*max-width:50vw;*/
+}
+.active_ski:hover{
+    transform: translateY(-10vh) scale(1.5);
 }
 .active_board{
-    transform: translateY(10vh);
+    transform: translateY(10vh) scale(1.5);
 }
-
+.active_board:hover{
+    transform: translateY(10vh) scale(1.5);
+}
 header {
     display: flex;
     justify-content: space-between;
