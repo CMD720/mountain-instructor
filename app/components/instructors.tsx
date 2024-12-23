@@ -1,13 +1,13 @@
 import React from 'react';
-import {fetchInstructors} from "@/app/api/fetch";
+// import {fetchInstructors} from "@/app/api/fetch";
 // import axios from 'axios';
 
-type TInstructor = {
-    name: string,
-    tel: number,
-    type: number,
-    person:number
-}
+// type TInstructor = {
+//     name: string,
+//     tel: number,
+//     type: number,
+//     person:number
+// }
 
 // async function fetchInstructors()  {
 //     const res = await fetch('https://634ed67df34e1ed826979461.mockapi.io/instructor');
