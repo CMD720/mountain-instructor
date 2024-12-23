@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 215 215 ">
+    <linearGradient id="linear-gradient" x1="0" y1="90%" x2="110%" y2="30%">
+        <stop offset="10%" stop-color="#70f0ee"/>
+        <stop offset="100%" stop-color="#4e69d4"/>
+    </linearGradient>
+    <defs>
+        <style>.cls-1{fill:#fff;fill-rule:evenodd;}</style>
+    </defs>
+    <g >
+        <circle fill="url(#linear-gradient)" id="Background" cx="107.5" cy="107.5" r="107.5"/>
+        <path class="cls-1" d="M185 921 c-16 -10 -52 -42 -79 -70 -47 -51 -48 -54 -42 -99 24 -187
+336 -539 577 -652 36 -16 85 -33 111 -36 46 -6 48 -6 103 47 65 61 89 101 81
+133 -6 24 -193 156 -221 156 -9 0 -38 -11 -65 -25 -27 -14 -54 -25 -60 -25
+-16 0 -228 209 -235 231 -3 10 6 40 20 68 14 28 25 57 25 66 0 18 -114 193
+-138 213 -22 17 -42 15 -77 -7z"
+              transform="translate(58.000000,160.000000) scale(0.100000,-0.100000)"/>
+    </g>
+</svg>

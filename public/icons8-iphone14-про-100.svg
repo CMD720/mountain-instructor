@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 215 215 ">
+    <linearGradient id="linear-gradient" x1="0" y1="90%" x2="110%" y2="30%">
+        <stop offset="10%" stop-color="#70f0ee"/>
+        <stop offset="100%" stop-color="#4e69d4"/>
+    </linearGradient>
+    <defs>
+        <style>.cls-1{fill:#fff;fill-rule:evenodd;}</style>
+    </defs>
+    <g >
+        <circle fill="url(#linear-gradient)" id="Background" cx="107.5" cy="107.5" r="107.5"/>
+        <path class="cls-1" d="M265 955 l-25 -24 0 -431 0 -431 25 -24 c24 -25 24 -25 235 -25 211
+0 211 0 235 25 l25 24 0 431 0 431 -25 24 c-24 25 -24 25 -235 25 -211 0 -211
+0 -235 -25z m310 -65 c0 -24 -3 -25 -73 -28 -75 -3 -92 6 -78 43 5 13 20 15
+78 13 70 -3 73 -4 73 -28z"
+              transform="translate(58.000000,160.000000) scale(0.100000,-0.100000)"/>
+    </g>
+</svg>
