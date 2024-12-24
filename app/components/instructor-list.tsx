@@ -40,7 +40,7 @@ const InstructorList = () => {
             tel: 79824354068,
             type: 1,
             person: 3,
-            link: "https://web.telegram.org/a/#901611649"
+            link: "https://t.me/UAZ_Today"
         },
         {
             id: 3,
@@ -48,7 +48,7 @@ const InstructorList = () => {
             tel: 79048460441,
             type: 1,
             person: 3,
-            link: "https://web.telegram.org/a/#901611649"
+            link: "https://t.me/AntonH59"
         },
         {
             id: 4,
@@ -56,7 +56,7 @@ const InstructorList = () => {
             tel: 723,
             type: 1,
             person: 2,
-            link: "https://web.telegram.org/a/#901611649"
+            link: "https://t.me/a/#901611649"
         },
         {
             id: 5,
@@ -64,7 +64,7 @@ const InstructorList = () => {
             tel: 79124814255,
             type: 2,
             person: 2,
-            link: "https://web.telegram.org/a/#901611649"
+            link: "https://t.me/#901611649"
         },
         {
             id: 6,
