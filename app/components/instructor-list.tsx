@@ -8,7 +8,7 @@ type TInstructor = {
     name: string,
     tel: number,
     type: number,
-    person:number,
+    person: number,
     link: string
 }
 
@@ -29,11 +29,11 @@ const InstructorList = () => {
     const data = [
         {
             id: 1,
-            name:"Андрей",
-            tel:723,
-            type:1,
-            person:3,
-            link:"https://web.telegram.org/a/#901611649"
+            name: "Андрей",
+            tel: 723,
+            type: 1,
+            person: 3,
+            link: "https://web.telegram.org/a/#901611649"
         },
         {
             id: 2,
@@ -41,52 +41,54 @@ const InstructorList = () => {
             tel: 79824354068,
             type: 1,
             person: 3,
-            link:"https://web.telegram.org/a/#901611649"
+            link: "https://web.telegram.org/a/#901611649"
         },
         {
             id: 3,
-            name:"Эдуард",
-            tel:79048460441,
-            type:1,
-            person:3,
-            link:"https://web.telegram.org/a/#901611649"
+            name: "Эдуард",
+            tel: 79048460441,
+            type: 1,
+            person: 3,
+            link: "https://web.telegram.org/a/#901611649"
         },
         {
             id: 4,
-            name:"Егор",
-            tel:723,
-            type:1,
-            person:2,
-            link:"https://web.telegram.org/a/#901611649"
+            name: "Егор",
+            tel: 723,
+            type: 1,
+            person: 2,
+            link: "https://web.telegram.org/a/#901611649"
         },
         {
             id: 5,
-            name:"Дмитрий",
-            tel:79124814255,
-            type:2,
-            person:2,
-            link:"https://web.telegram.org/a/#901611649"
+            name: "Дмитрий",
+            tel: 79124814255,
+            type: 2,
+            person: 2,
+            link: "https://web.telegram.org/a/#901611649"
         },
         {
             id: 6,
-            name:"Сергей",
-            tel:79028330830,
-            type:2,
-            person:3,
-            link:"https://web.telegram.org/a/#901611649"
+            name: "Сергей",
+            tel: 79028330830,
+            type: 2,
+            person: 3,
+            link: "https://web.telegram.org/a/#901611649"
         },
         {
             id: 7,
-            name:"Антон",
-            tel:79024722533,
-            type:2,
-            person:3,
-            link:"https://web.telegram.org/a/#901611649"
+            name: "Антон",
+            tel: 79024722533,
+            type: 2,
+            person: 3,
+            link: "https://web.telegram.org/a/#901611649"
         }
     ]
 
-    const skiCart = data.filter(item => item.type == 1).map((item:TInstructor, index) => <Person {...item} key={index}/>)
-    const boardCart = data.filter(item => item.type == 2).map((item:TInstructor, index) => <Person {...item} key={index}/>)
+    const skiCart = data.filter(item => item.type == 1).map((item: TInstructor, index) => <Person {...item}
+                                                                                                  key={index}/>)
+    const boardCart = data.filter(item => item.type == 2).map((item: TInstructor, index) => <Person {...item}
+                                                                                                    key={index}/>)
 
     return (
         <div className="equipment_wrapper">
@@ -96,30 +98,14 @@ const InstructorList = () => {
                  onClick={() => onClickSki()}
             />
             {
-                ski_man && <div className="list"
-                    // style={{transform: `translateY(${height}`}}
-                >
-                    {/*<Person data={}/>*/}
+                ski_man && <div className="list">
                     {skiCart}
-                    <Instructors/>
-
-                    {/*<h2>Ski Instructor </h2>*/}
-                    {/*<p>1 - Андрей</p>*/}
-                    {/*<p>2 - Дарья</p>*/}
-                    {/*<p>3 - Егор</p>*/}
-                    {/*<p>4 - Эдуард</p>*/}
-                    {/*<p>5 - Сондре Норхейм</p>*/}
                 </div>
             }
 
             {
                 board_man && <div className="list">
                     {boardCart}
-                    {/*<h2>SnowBoard Instructor:</h2>*/}
-                    {/*<p>1 - Антон</p>*/}
-                    {/*<p>2 - Дмитрий</p>*/}
-                    {/*<p>3 - Сергей</p>*/}
-                    {/*<p>4 - Джейк Бертон</p>*/}
                 </div>
             }
             <img className={board_man ? "equipment_logo active_board" : "equipment_logo"}
