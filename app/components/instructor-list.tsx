@@ -32,7 +32,7 @@ const InstructorList = () => {
             tel: 723,
             type: 1,
             person: 3,
-            link: "https://web.telegram.org/a/#901611649"
+            link: "https://t.me/+79504466967"
         },
         {
             id: 2,
@@ -40,7 +40,7 @@ const InstructorList = () => {
             tel: 79824354068,
             type: 1,
             person: 3,
-            link: "https://t.me/UAZ_Today"
+            link: " https://t.me/+79824354068"
         },
         {
             id: 3,
@@ -48,7 +48,7 @@ const InstructorList = () => {
             tel: 79048460441,
             type: 1,
             person: 3,
-            link: "https://t.me/AntonH59"
+            link: "https://t.me/Edwardsim"
         },
         {
             id: 4,
@@ -56,7 +56,7 @@ const InstructorList = () => {
             tel: 723,
             type: 1,
             person: 2,
-            link: "https://t.me/a/#901611649"
+            link: "https://t.me/Egor_inst"
         },
         {
             id: 5,
@@ -64,7 +64,7 @@ const InstructorList = () => {
             tel: 79124814255,
             type: 2,
             person: 2,
-            link: "https://t.me/#901611649"
+            link: "https://t.me/+79124814255"
         },
         {
             id: 6,
@@ -72,7 +72,7 @@ const InstructorList = () => {
             tel: 79028330830,
             type: 2,
             person: 3,
-            link: "https://web.telegram.org/a/#901611649"
+            link: "https://t.me/sergi_onboard"
         },
         {
             id: 7,
@@ -80,7 +80,7 @@ const InstructorList = () => {
             tel: 79024722533,
             type: 2,
             person: 3,
-            link: "https://web.telegram.org/a/#901611649"
+            link: "https://t.me/+79024722533"
         }
     ]
 
