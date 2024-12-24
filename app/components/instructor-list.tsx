@@ -1,7 +1,6 @@
 'use client'
 
 import React, {useState} from 'react';
-import Instructors from "@/app/components/instructors";
 import Person from "@/app/components/person";
 
 type TInstructor = {
