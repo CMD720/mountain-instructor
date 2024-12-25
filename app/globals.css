@@ -56,11 +56,18 @@ body {
     transform: scale(1.1);
 }
 .list{
-    height: auto;
+    /*height: auto;*/
     width: 95%;
-    transition: all 3s ease-in-out;
+    /*transition: all 3s ease-in-out;*/
+
+    max-height: 0;
+    transition: max-height 0.5s cubic-bezier(0, 1, 0, 1);
 }
 .active_list{
+    max-height: 500px;
+    overflow: hidden;
+    transition: max-height 0.5s cubic-bezier(1, 0, 1, 0);
+
     /*height: 300px;*/
     /*width: 95%;*/
     /*transition: all 1s ease-in;*/
@@ -103,8 +110,14 @@ a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    /*width: 100%;*/
     border: 2px solid  #000000;
+
+    /*border:4px solid transparent;*/
+    /*background: linear-gradient(to right, #5154cc , #cc8b51 );*/
+    /*background: linear-gradient(150.99deg, #5192cc -26%, #ffffff 145%) padding-box ,linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%) border-box;*/
+    /*border-image-slice: 1;*/
+
     border-radius: 5px;
     padding: 5px 5px;
     margin: 15px 0;

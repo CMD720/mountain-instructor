@@ -96,17 +96,20 @@ const InstructorList = () => {
                  alt="SKI logo"
                  onClick={() => onClickSki()}
             />
-            {
-                ski_man && <div className="list">
-                    {skiCart}
-                </div>
-            }
+            {/*{*/}
+            {/*    ski_man && <div className="list">*/}
+            {/*        {skiCart}*/}
+            {/*    </div>*/}
+            {/*}*/}
+            <div className={ski_man ? "list active_list" : "list"}>
+                {ski_man && skiCart}
+            </div>
 
-            {
-                board_man && <div className="list">
-                    {boardCart}
-                </div>
-            }
+
+            <div className={board_man ? "list active_list" : "list"}>
+                {board_man && boardCart}
+            </div>
+
             <img className={board_man ? "equipment_logo active_board" : "equipment_logo"}
                  src="/board.svg"
                  alt="Board logo"
