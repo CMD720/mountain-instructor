@@ -56,10 +56,7 @@ body {
     transform: scale(1.1);
 }
 .list{
-    /*height: auto;*/
     width: 95%;
-    /*transition: all 3s ease-in-out;*/
-
     max-height: 0;
     transition: max-height 0.5s cubic-bezier(0, 1, 0, 1);
 }
@@ -67,10 +64,6 @@ body {
     max-height: 500px;
     overflow: hidden;
     transition: max-height 0.5s cubic-bezier(1, 0, 1, 0);
-
-    /*height: 300px;*/
-    /*width: 95%;*/
-    /*transition: all 1s ease-in;*/
 }
 .active_ski{
     transform: translateY(-10vh) scale(1.5);
@@ -111,12 +104,10 @@ a:hover {
     justify-content: space-between;
     align-items: center;
     /*width: 100%;*/
-    border: 2px solid  #000000;
+    /*border: 2px solid  #000000;*/
 
-    /*border:4px solid transparent;*/
-    /*background: linear-gradient(to right, #5154cc , #cc8b51 );*/
-    /*background: linear-gradient(150.99deg, #5192cc -26%, #ffffff 145%) padding-box ,linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%) border-box;*/
-    /*border-image-slice: 1;*/
+    border:4px solid transparent;
+    background: linear-gradient(150.99deg, #5192cc -26%, #ffffff 145%) padding-box , radial-gradient(at 80.15684469851622% 31.390952005354844%, hsla(238.53658536585365, 54.66666666666667%, 55.88235294117647%, 1) 0%, hsla(238.53658536585365, 54.66666666666667%, 55.88235294117647%, 0) 100%), radial-gradient(at 58.868526326797664% 65.60158488855453%, hsla(178.53658536585365, 54.66666666666667%, 55.88235294117647%, 1) 0%, hsla(178.53658536585365, 54.66666666666667%, 55.88235294117647%, 0) 100%), radial-gradient(at 90.72153257288859% 94.03807090112126%, hsla(238.53658536585365, 54.66666666666667%, 55.88235294117647%, 1) 0%, hsla(238.53658536585365, 54.66666666666667%, 55.88235294117647%, 0) 100%), radial-gradient(at 26.20835251785123% 70.92130810832937%, hsla(178.53658536585365, 54.66666666666667%, 55.88235294117647%, 1) 0%, hsla(178.53658536585365, 54.66666666666667%, 55.88235294117647%, 0) 100%), radial-gradient(at 19.746796760796137% 80.14343131775439%, hsla(238.53658536585365, 54.66666666666667%, 55.88235294117647%, 1) 0%, hsla(238.53658536585365, 54.66666666666667%, 55.88235294117647%, 0) 100%), radial-gradient(at 61.283194670846086% 42.20896415628923%, hsla(178.53658536585365, 54.66666666666667%, 55.88235294117647%, 1) 0%, hsla(178.53658536585365, 54.66666666666667%, 55.88235294117647%, 0) 100%), radial-gradient(at 31.85232601793797% 73.49692949758816%, hsla(238.53658536585365, 54.66666666666667%, 55.88235294117647%, 1) 0%, hsla(238.53658536585365, 54.66666666666667%, 55.88235294117647%, 0) 100%), radial-gradient(at 92.097082492536% 6.995516430672222%, hsla(178.53658536585365, 54.66666666666667%, 55.88235294117647%, 1) 0%, hsla(178.53658536585365, 54.66666666666667%, 55.88235294117647%, 0) 100%), radial-gradient(at 55.36933501476724% 51.4324692170149%, hsla(238.53658536585365, 54.66666666666667%, 55.88235294117647%, 1) 0%, hsla(238.53658536585365, 54.66666666666667%, 55.88235294117647%, 0) 100%), radial-gradient(at 32.72865845896327% 41.77033204107785%, hsla(178.53658536585365, 54.66666666666667%, 55.88235294117647%, 1) 0%, hsla(178.53658536585365, 54.66666666666667%, 55.88235294117647%, 0) 100%) border-box;
 
     border-radius: 5px;
     padding: 5px 5px;
@@ -160,4 +151,54 @@ a:hover {
 
 .post a {
     color: #283c44;
+}
+@media (max-width: 1000px){
+    .equipment_logo{
+        max-width:50vw;
+    }
+    .active_ski{
+        transform: translateY(-3vh) scale(1.6);
+    }
+    .active_ski:hover{
+        transform: translateY(-3vh) scale(1.6);
+    }
+    .active_board{
+        transform: translateY(3vh) scale(1.6);
+    }
+    .active_board:hover{
+        transform: translateY(3vh) scale(1.6);
+    }
+}
+@media (max-width: 600px){
+}
+@media (max-width: 400px){
+    .main_area{
+        padding: 10px 10px;
+        width: 90vw;
+    }
+    .equipment_wrapper{
+        width: 100%;
+    }
+    .people{
+        height: 24px;
+        width: 24px;
+        padding-right: 3px;
+    }
+    .social_icon{
+        height: 24px;
+        width: 24px;
+        padding-right:10px;
+    }
+    .active_ski{
+        transform: translateY(-3vh) scale(1.7);
+    }
+    .active_ski:hover{
+        transform: translateY(-3vh) scale(1.7);
+    }
+    .active_board{
+        transform: translateY(3vh) scale(1.7);
+    }
+    .active_board:hover{
+        transform: translateY(3vh) scale(1.7);
+    }
 }
