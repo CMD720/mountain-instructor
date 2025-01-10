@@ -77,7 +77,7 @@ const InstructorList = () => {
         {
             id: 7,
             name: "Антон",
-            tel: 79024722533,
+            tel: 123,
             type: 2,
             person: 3,
             link: "https://t.me/+79024722533"
