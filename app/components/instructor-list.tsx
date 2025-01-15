@@ -77,10 +77,10 @@ const InstructorList = () => {
         {
             id: 7,
             name: "Антон",
-            tel: 123,
+            tel: 79960848414,
             type: 2,
             person: 3,
-            link: "https://t.me/+79024722533"
+            link: "https://t.me/+79960848414"
         }
     ]
 
