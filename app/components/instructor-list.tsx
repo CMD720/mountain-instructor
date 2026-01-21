@@ -81,6 +81,14 @@ const InstructorList = () => {
             type: 2,
             person: 3,
             link: "https://t.me/+79960848414"
+        },
+        {
+            "id": 8,
+            "name": "Анастасия",
+            "tel": 89091087494,
+            "type": 2,
+            "person": 3,
+            link: "https://t.me/+79091087494"
         }
     ]
 
